@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <com.xyuan.xybanner.Banner
+        android:id="@+id/banner1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+
+
+    <com.xyuan.xybanner.Banner
+        android:id="@+id/banner2"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="150dp" />
+
+
+    <com.xyuan.xybanner.Banner
+        android:id="@+id/banner3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_height="150dp" />
+</LinearLayout>
